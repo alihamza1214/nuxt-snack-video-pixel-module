@@ -5,7 +5,7 @@
   "license": "MIT",
   "contributors": [],
   "main": "lib/module.js",
-  "repository": "https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module",
+  "repository": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module.git",
   "publishConfig": {
     "access": "public"
   },
