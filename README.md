@@ -1,9 +1,9 @@
 # nuxt-tiktok-pixel-module
 
-
+[![npm version](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module.svg)](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module)[![npm](https://img.shields.io/npm/dt/nuxt-tiktok-pixel-tracking-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-tiktok-pixel-tracking-module)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
-> A NuxtJS module thats injects TikTok Pixel code
+> A NuxtJS module thats injects TikTok Pixel code with custom tracking functionality
 
 Inspired by [https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module#readme](https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module#readme)
 
