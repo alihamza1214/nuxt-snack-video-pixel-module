@@ -1,11 +1,14 @@
 {
-  "name": "nuxt-tiktok-pixel-module",
+  "name": "nuxt-tiktok-pixel-tracking-module",
   "version": "0.1.0",
-  "description": "Nuxt module for TikTok pixel",
+  "description": "Nuxt module for TikTok pixel tracking",
   "license": "MIT",
   "contributors": [],
   "main": "lib/module.js",
-  "repository": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihamza1214/nuxt-tiktok-pixel-module.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -45,5 +48,21 @@
     "node-fetch": "^3.1.0",
     "nuxt": "latest",
     "standard-version": "latest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module/issues"
+  },
+  "homepage": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt",
+    "tiktok",
+    "pixel",
+    "tiktok",
+    "pixel"
+  ],
+  "author": "Ali Hamza"
 }

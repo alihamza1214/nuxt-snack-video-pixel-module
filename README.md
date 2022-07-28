@@ -1,12 +1,11 @@
 # nuxt-tiktok-pixel-module
 
-[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-tiktok-pixel-module/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-tiktok-pixel-module)
-[![npm](https://img.shields.io/npm/dt/nuxt-tiktok-pixel-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-tiktok-pixel-module)
+
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > A NuxtJS module thats injects TikTok Pixel code
 
-Inspired by [https://github.com/odroltd/nuxt-linkedin-pixel-module#readme](https://github.com/odroltd/nuxt-linkedin-pixel-module#readme)
+Inspired by [https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module#readme](https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module#readme)
 
 
 ## Table of Contents ##
@@ -83,6 +82,15 @@ Now, in your component, you can call the following in order to start the pixel a
 ```js
 this.$tiktok.enable()
 ```
+For Custom Tracking, you can call the following:
+
+```js
+this.$tiktok.track("AddToCart")
+
+or
+
+this.$tiktok.track("AddToCart",{value:1})
+```
 
 ## Module options
 
@@ -103,4 +111,4 @@ The tracking pixel instance is available on all vue component instances as $tikt
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License]
