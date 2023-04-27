@@ -1,6 +1,7 @@
-# nuxt-tiktok-pixel-module
+# nuxt-snack-video-pixel-module
 
-[![npm version](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module.svg)](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module)[![npm](https://img.shields.io/npm/dt/nuxt-tiktok-pixel-tracking-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-tiktok-pixel-tracking-module)
+[![npm version](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module.svg)](https://badge.fury.io/js/nuxt-tiktok-pixel-tracking-module)
+[![npm](https://img.shields.io/npm/dt/nuxt-tiktok-pixel-tracking-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-tiktok-pixel-tracking-module)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > A NuxtJS module thats injects TikTok Pixel code with custom tracking functionality
@@ -24,22 +25,22 @@ Inspired by [https://github.com/GuillaumeFerron/nuxt-tiktok-pixel-module#readme]
 ## Install
 
 ```bash
-$ npm install --save nuxt-tiktok-pixel-module
+$ npm install --save nuxt-snack-video-pixel-module
 // or
-$ yarn add nuxt-tiktok-pixel-module
+$ yarn add nuxt-snack-video-pixel-module
 ```
 
 ## Getting Started
 
-Add `nuxt-tiktok-pixel-module` to `modules` section of `nuxt.config.js`.
+Add `nuxt-snack-video-pixel-module` to `modules` section of `nuxt.config.js`.
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-tiktok-pixel-module',
+    'nuxt-snack-video-pixel-module',
 
     // With options
-    ['nuxt-tiktok-pixel-module', {
+    ['nuxt-snack-video-pixel-module', {
       /* module options */
       pixel: 'TIKTOK_PIXEL_ID',
       disabled: false
@@ -51,9 +52,9 @@ or even
 ```js
 {
   modules: [
-    'nuxt-tiktok-pixel-module',
+    'nuxt-snack-video-pixel-module',
   ],
-  tiktok: {
+  snack-video: {
     /* module options */
     pixel: 'TIKTOK_PIXEL_ID',
     disabled: false
@@ -68,9 +69,9 @@ If you'd like to install the pixel disabled, and enable it later after the user 
 ```js
 {
   modules: [
-    'nuxt-tiktok-pixel-module',
+    'nuxt-snack-video-pixel-module',
   ],
-  tiktok: {
+  snack-video: {
     ...
     disabled: true
   },
@@ -80,16 +81,16 @@ If you'd like to install the pixel disabled, and enable it later after the user 
 Now, in your component, you can call the following in order to start the pixel and track the current page.
 
 ```js
-this.$tiktok.enable()
+this.$snack.enable()
 ```
 For Custom Tracking, you can call the following:
 
 ```js
-this.$tiktok.track("AddToCart")
+this.$snack.track("AddToCart")
 
 or
 
-this.$tiktok.track("AddToCart",{value:1})
+this.$snack.track("AddToCart",{value:1})
 ```
 
 ## Module options
@@ -101,13 +102,6 @@ List of possible options in the module:
 | pixel  | null     | true     | The pixel identifier provided by TikTok business.|
 | disabled | false    | false    | Disable the pixel by default when initialized. Can be enabled later through `$tiktok.enable()`.
 
-## TikTok pixel instance
-
-The tracking pixel instance is available on all vue component instances as $tiktok. It has the following methods:
-
-| Method            | Purpose                                                                                                  | Equivalent to                  |
-|-------------------|----------------------------------------------------------------------------------------------------------|--------------------------------|
-| enable()          | If you had previously set `disabled: true` in config, enables the pixel and tracks the current page view | $tiktok.init()        |
 
 ## License
 

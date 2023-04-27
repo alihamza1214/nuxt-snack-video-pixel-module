@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-tiktok-pixel-tracking-module",
+  "name": "nuxt-snack-video-pixel-tracking-module",
   "version": "0.1.1",
-  "description": "Nuxt module for TikTok pixel tracking",
+  "description": "Nuxt module for Snack Video pixel tracking",
   "license": "MIT",
   "contributors": [],
   "main": "lib/module.js",
@@ -59,10 +59,10 @@
   "keywords": [
     "nuxt",
     "nuxt",
-    "tiktok",
+    "snack",
     "pixel",
-    "tiktok",
-    "pixel"
+    "snack video",
+    "video"
   ],
   "author": "Ali Hamza"
 }
