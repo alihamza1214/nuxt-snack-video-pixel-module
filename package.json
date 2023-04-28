@@ -1,13 +1,13 @@
 {
   "name": "nuxt-snack-video-pixel-tracking-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nuxt module for Snack Video pixel tracking",
   "license": "MIT",
   "contributors": [],
   "main": "lib/module.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alihamza1214/nuxt-tiktok-pixel-module.git"
+    "url": "git+https://github.com/alihamza1214/nuxt-snack-video-pixel-module.git"
   },
   "publishConfig": {
     "access": "public"
@@ -50,9 +50,9 @@
     "standard-version": "latest"
   },
   "bugs": {
-    "url": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module/issues"
+    "url": "https://github.com/alihamza1214/nuxt-snack-video-pixel-module/issues"
   },
-  "homepage": "https://github.com/alihamza1214/nuxt-tiktok-pixel-module#readme",
+  "homepage": "https://github.com/alihamza1214/nuxt-snack-video-pixel-module#readme",
   "directories": {
     "lib": "lib"
   },
