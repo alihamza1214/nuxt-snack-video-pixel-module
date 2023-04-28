@@ -86,10 +86,10 @@ this.$kwaiq.track("purchase", {
 
 List of possible options in the module:
 
-| Option   | Default  | Required | Description                                                                               |
-|----------|----------|----------|-------------------------------------------------------------------------------------------|
-| pixel  | null     | true     | The pixel identifier provided by TikTok business.|
-| disabled | false    | false    | Disable the pixel by default when initialized. Can be enabled later through `$tiktok.enable()`.
+| Option   | Default  | Required | Description                                                                                     |
+|----------|----------|----------|-------------------------------------------------------------------------------------------------|
+| pixel  | null     | true     | The pixel identifier provided by Snack Video business.                                          |
+| disabled | false    | false    | Disable the pixel by default when initialized. Can be enabled later through `$kwaiq.enable()`. 
 
 
 ## License
